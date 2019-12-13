@@ -13,11 +13,13 @@
   </head>
 
   <body>
-    <div class="jumbotron">
-      <h1>Welcome to Matthew Clark's Personal Page!</h1>
-      <p>
-        This is a work in progress.
-      </p>
-    </div>
+    <div id="elm-app-is-loaded-here"></div>
+    
+    <script src="elm.js"></script>
+    <script>
+      var app = Elm.Main.init({
+        node: document.getElementById("elm-app-is-loaded-here")
+      });      
+    </script>
   </body>
 </html>
