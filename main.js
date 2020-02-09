@@ -4433,7 +4433,7 @@ var $author$project$Main$view = function (model) {
 				_List_Nil,
 				_List_fromArray(
 					[
-						$elm$html$Html$text('Welcome to Matt Clark\'s Personal Page!')
+						$elm$html$Html$text('Welcome to Matt Clark\'s Page for the People')
 					])),
 				A2(
 				$elm$html$Html$p,
