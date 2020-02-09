@@ -9,7 +9,7 @@ view model =
         [ h1 [] [ text "Welcome to Matt Clark's Personal Page!" ]
         , p []
             [ text "This is  a work in Progress using "
-            , strong [] [ text "Elm" ]
+            , strong [] [ text "Elmish" ]
             ]
         ]
 
